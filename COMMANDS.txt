@@ -1,0 +1,9 @@
+----------------Sequential Case----------------
+./imagewatermarking source/800x600/ source/watermark800x600.jpg result/ -seq
+./imagewatermarking source/800x600/ source/watermark800x600.jpg result/ -seq -average
+----------------Parallel Case------------------
+./imagewatermarking source/800x600/ source/watermark800x600.jpg result/ -par -nw 4 
+./imagewatermarking source/800x600/ source/watermark800x600.jpg result/ -par -nw 4 -average
+----------------Parallel Case Fastflow----------
+./imagewatermarking source/800x600/ source/watermark800x600.jpg result/ -ff -nw 4
+./imagewatermarking source/800x600/ source/watermark800x600.jpg result/ -ff -nw 4 -average
